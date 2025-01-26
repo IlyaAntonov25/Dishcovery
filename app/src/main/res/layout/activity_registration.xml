@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".registration">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="407dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/unosPassReg"
+        android:layout_width="348dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:ems="5"
+        android:hint="Password"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+    <EditText
+        android:id="@+id/unosPassRegConf"
+        android:layout_width="348dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:ems="5"
+        android:hint="Confirm your password"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unosPassReg"/>
+
+    <EditText
+        android:id="@+id/unosNickReg"
+        android:layout_width="348dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:ems="5"
+        android:hint="Nickname"
+        android:inputType="text"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unosPassRegConf" />
+
+    <EditText
+        android:id="@+id/unosEmail"
+        android:layout_width="348dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:ems="5"
+        android:hint="Email"
+        android:inputType="text"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unosNickReg" />
+
+    <Button
+        android:id="@+id/confReg"
+        android:layout_width="229dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        android:onClick="gssText"
+        android:text="Do account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unosEmail" />
+
+    <Button
+        android:id="@+id/goToLogIn"
+        android:layout_width="229dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToLog"
+        android:text="Go back to login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confReg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
