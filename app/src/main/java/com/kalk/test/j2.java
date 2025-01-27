@@ -5,15 +5,13 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class mainMenu extends AppCompatActivity
-{
+public class j2 extends AppCompatActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.activity_category);
     }
-    public void Jap(View view){
+    public void Back(View view){
         Intent pip = new Intent(this, category_result_jap.class);
         startActivity(pip);
     }

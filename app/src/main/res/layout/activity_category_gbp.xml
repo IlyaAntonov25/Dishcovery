@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewMainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/Dishcovery"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/unosPassLog"
+        android:layout_width="269dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:ems="5"
+        android:hint="Search"
+        android:inputType="text"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMainMenu" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/unosPassLog"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="parent">
+
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="center"
+            android:src="@drawable/canada"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="center"
+            android:src="@drawable/china"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="center"
+            android:src="@drawable/croatia"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="center"
+            android:src="@drawable/egypt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="center"
+            android:src="@drawable/italy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="center"
+            android:src="@drawable/italy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="30dp"
+            android:scaleType="center"
+            android:src="@drawable/france"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:scaleType="center"
+            android:src="@drawable/greece"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:scaleType="center"
+            android:src="@drawable/india"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:scaleType="center"
+            android:src="@drawable/russia"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:scaleType="center"
+            android:src="@drawable/ukraine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:scaleType="center"
+            android:src="@drawable/ukraine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
