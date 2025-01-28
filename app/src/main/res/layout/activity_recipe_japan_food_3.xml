@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+1 lb Salmon, 1 tablespoon Olive oil, 2 tablespoons Soy Sauce, 2 tablespoons Sake, 4 tablespoons Sesame Seed"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="Mix all the ingredients in the Honey Teriyaki Glaze together.\n
+Whisk to blend well.\n
+Combine the salmon and the Glaze together.\n
+Heat up a skillet on medium-low heat.\n
+Add the oil, Pan-fry the salmon on both sides until it’s completely cooked inside and the glaze thickens.\n
+Garnish with sesame and serve immediately."
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
