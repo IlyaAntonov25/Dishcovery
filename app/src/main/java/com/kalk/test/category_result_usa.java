@@ -1,9 +1,11 @@
 package com.kalk.test;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.view.View;
 
 public class category_result_usa extends AppCompatActivity
 {
@@ -11,22 +13,36 @@ public class category_result_usa extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category);
+        setContentView(R.layout.activity_category_usa);
     }
-    public void Back(View view){
+
+    public void backToMenu(View v)
+    {
         Intent pip = new Intent(this, mainMenu.class);
         startActivity(pip);
     }
-    public void bigmac(View view){
-        Intent pip = new Intent(this, u1.class);
+
+    public void goToUSAFood1(View v)
+    {
+        Intent pip = new Intent(this, recipe_usa_food_1.class);
         startActivity(pip);
     }
-    public void fish(View view){
-        Intent pip = new Intent(this, u2.class);
+
+    public void goToUSAFood2(View v)
+    {
+        Intent pip = new Intent(this, recipe_usa_food_2.class);
         startActivity(pip);
     }
-    public void kfc(View view){
-        Intent pip = new Intent(this, u3.class);
+
+    public void goToUSAFood3(View v)
+    {
+        Intent pip = new Intent(this, recipe_usa_food_3.class);
+        startActivity(pip);
+    }
+
+    public void goToUSAFood4(View v)
+    {
+        Intent pip = new Intent(this, recipe_usa_food_4.class);
         startActivity(pip);
     }
 }

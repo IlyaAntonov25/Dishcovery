@@ -3,209 +3,124 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textViewMainMenu"
+        android:id="@+id/textViewPolFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/Dishcovery"
+        android:layout_marginTop="44dp"
+        android:text="Polish food"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/unosPassLog"
-        android:layout_width="269dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="40dp"
-        android:ems="5"
-        android:hint="Search"
-        android:inputType="text"
-        android:minHeight="50dp"
-        android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewMainMenu" />
-
-    <Button
-        android:id="@+id/button"
+    <!--Заменить часть id русское на польское блюдо -->
+    <ImageButton
+        android:id="@+id/imageButtonBlini"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="112dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/unosPassLog"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="parent">
-
-
-    </ScrollView>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="136dp"
+        android:src="@drawable/poland"
+        android:background="@color/white"
+        android:onClick="goToPolandFood1"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp">
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="15dp"
-            android:scaleType="center"
-            android:src="@drawable/canada"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="20dp"
-            android:scaleType="center"
-            android:src="@drawable/china"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="20dp"
-            android:scaleType="center"
-            android:src="@drawable/croatia"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton8"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="20dp"
-            android:scaleType="center"
-            android:src="@drawable/egypt"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton9"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="20dp"
-            android:scaleType="center"
-            android:src="@drawable/italy"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton12"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="20dp"
-            android:scaleType="center"
-            android:src="@drawable/italy"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton9"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="30dp"
-            android:scaleType="center"
-            android:src="@drawable/france"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="30dp"
-            android:scaleType="center"
-            android:src="@drawable/greece"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton6"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="30dp"
-            android:scaleType="center"
-            android:src="@drawable/india"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton7"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="30dp"
-            android:scaleType="center"
-            android:src="@drawable/russia"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton10"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="30dp"
-            android:scaleType="center"
-            android:src="@drawable/ukraine"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageButton
-            android:id="@+id/imageButton13"
-            android:layout_width="150sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="30dp"
-            android:scaleType="center"
-            android:src="@drawable/ukraine"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton10"
-            tools:srcCompat="@tools:sample/avatars" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
+        tools:srcCompat="@tools:sample/avatars" />
+    <!--Заменить часть id русское на польское блюдо -->
+    <ImageButton
+        android:id="@+id/imageButtonBorsch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/poland"
+        android:background="@color/white"
+        android:onClick="goToPolandFood2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBlini"
+        tools:srcCompat="@tools:sample/avatars" />
+    <!--Заменить часть id русское на польское блюдо -->
+    <ImageButton
+        android:id="@+id/imageButtonOlivie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/poland"
+        android:background="@color/white"
+        android:onClick="goToPolandFood3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+    <!--Заменить часть id русское на польское блюдо -->
+    <ImageButton
+        android:id="@+id/imageButtonPlov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/poland"
+        android:background="@color/white"
+        android:onClick="goToPolandFood4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOlivie"
+        tools:srcCompat="@tools:sample/avatars" />
+    <!--Заменить часть id русское на польское блюдо -->
+    <TextView
+        android:id="@+id/textViewBlini"
+        android:layout_width="156dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="4dp"
+        android:text="Poland food"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonBlini" />
+    <!--Заменить часть id русское на польское блюдо -->
+    <TextView
+        android:id="@+id/textViewBorsch"
+        android:layout_width="156dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Poland food"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonBorsch" />
+    <!--Заменить часть id русское на польское блюдо -->
+    <TextView
+        android:id="@+id/textViewOlivie"
+        android:layout_width="156dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:text="Poland food"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonOlivie" />
+    <!--Заменить часть id русское на польское блюдо -->
+    <TextView
+        android:id="@+id/textViewPlov"
+        android:layout_width="156dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:text="Poland food"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonPlov" />
+    <!--Заменить часть id русское на польское блюдо -->
+    <Button
+        android:id="@+id/buttonRusToMenu"
+        android:layout_width="235dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="592dp"
+        android:onClick="backToMenu"
+        android:text="Menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

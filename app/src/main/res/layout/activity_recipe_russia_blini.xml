@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blini" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:text="Ingridients: \n
+1/2 cup Buckwheat, 2/3 cup Flour, 1/2 tsp salt,\n 1tsp Yeast, 1 cup Milk, 2tbs Butter, 1 separate Egg"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="In a large bowl, whisk together 1/2 cup buckwheat flour, 2/3 cup all-purpose flour, 1/2 teaspoon salt, and 1 teaspoon yeast. \n
+Make a well in the center and pour in 1 cup warm milk, whisking until the batter is smooth.\n
+Cover the bowl and let the batter rise until doubled, about 1 hour.\n
+Enrich and Rest the Batter Stir 2 tablespoons melted butter and 1 egg yolk into the batter. \n
+In a separate bowl, whisk 1 egg white until stiff, but not dry. \n
+Fold the whisked egg white into the batter. \n
+Cover the bowl and let the batter stand 20 minutes. \n
+Pan-Fry the Blini Heat butter in a large nonstick skillet over medium heat. \n
+Drop quarter-sized dollops of batter into the pan, being careful not to overcrowd the pan. \n
+Cook for about 1 minute or until bubbles form. \n
+Turn and cook for about 30 additional seconds. \n
+Remove the finished blini onto a plate and cover them with a clean kitchen towel to keep warm. \n
+Add more butter to the pan and repeat the frying process with the remaining batter."
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="goBackToRusRecipesFromBlini"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

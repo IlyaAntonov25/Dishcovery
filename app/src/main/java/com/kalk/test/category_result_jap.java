@@ -1,9 +1,11 @@
 package com.kalk.test;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.view.View;
 
 public class category_result_jap extends AppCompatActivity
 {
@@ -11,22 +13,36 @@ public class category_result_jap extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category);
+        setContentView(R.layout.activity_category_jap);
     }
-    public void Back(View view){
+
+    public void backToMenu(View v)
+    {
         Intent pip = new Intent(this, mainMenu.class);
         startActivity(pip);
     }
-    public void sushi(View view){
-        Intent pip = new Intent(this, j1.class);
+
+    public void goToJapanFood1(View v)
+    {
+        Intent pip = new Intent(this, recipe_japan_food_1.class);
         startActivity(pip);
     }
-    public void teriyaki(View view){
-        Intent pip = new Intent(this, j2.class);
+
+    public void goToJapanFood2(View v)
+    {
+        Intent pip = new Intent(this, recipe_japan_food_2.class);
         startActivity(pip);
     }
-    public void katsudon(View view){
-        Intent pip = new Intent(this, j3.class);
+
+    public void goToJapanFood3(View v)
+    {
+        Intent pip = new Intent(this, recipe_japan_food_3.class);
+        startActivity(pip);
+    }
+
+    public void goToJapanFood4(View v)
+    {
+        Intent pip = new Intent(this, recipe_japan_food_4.class);
         startActivity(pip);
     }
 }

@@ -1,9 +1,11 @@
 package com.kalk.test;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.view.View;
 
 public class category_result_pol extends AppCompatActivity
 {
@@ -11,23 +13,36 @@ public class category_result_pol extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_category);
+        setContentView(R.layout.activity_category_pol);
     }
 
-    public void Back(View view){
+    public void backToMenu(View v)
+    {
         Intent pip = new Intent(this, mainMenu.class);
         startActivity(pip);
     }
-    public void golabki(View view){
-        Intent pip = new Intent(this, p1.class);
+
+    public void goToPolandFood1(View v)
+    {
+        Intent pip = new Intent(this, recipe_poland_food_1.class);
         startActivity(pip);
     }
-    public void rosol(View view){
-        Intent pip = new Intent(this, p2.class);
+
+    public void goToPolandFood2(View v)
+    {
+        Intent pip = new Intent(this, recipe_poland_food_2.class);
         startActivity(pip);
     }
-    public void bigos(View view){
-        Intent pip = new Intent(this, p3.class);
+
+    public void goToPolandFood3(View v)
+    {
+        Intent pip = new Intent(this, recipe_poland_food_3.class);
+        startActivity(pip);
+    }
+
+    public void goToPolandFood4(View v)
+    {
+        Intent pip = new Intent(this, recipe_poland_food_4.class);
         startActivity(pip);
     }
 }

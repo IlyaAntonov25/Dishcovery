@@ -11,37 +11,12 @@
         android:id="@+id/textViewMainMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="40dp"
         android:text="@string/Dishcovery"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/unosPassLog"
-        android:layout_width="269dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="40dp"
-        android:ems="5"
-        android:hint="Search"
-        android:inputType="text"
-        android:minHeight="50dp"
-        android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewMainMenu" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="112dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/unosPassLog"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
@@ -58,82 +33,88 @@
         android:layout_width="408dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="124dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButtonRus"
             android:layout_width="200sp"
             android:layout_height="150sp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="15dp"
             android:baselineAlignBottom="true"
             android:scaleType="center"
+            android:onClick="goToRus"
             android:src="@drawable/russia"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButtonUSA"
             android:layout_width="200sp"
             android:layout_height="150sp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="15dp"
             android:scaleType="center"
+            android:onClick="goToUSA"
             android:src="@drawable/united_states_of_america"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonRus"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/imageButtonUK"
             android:layout_width="200sp"
             android:layout_height="150sp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="15dp"
             android:scaleType="center"
+            android:onClick="goToUK"
             android:src="@drawable/united_kingdom"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonUSA"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/imageButtonPol"
             android:layout_width="200sp"
             android:layout_height="150sp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="5dp"
             android:scaleType="center"
+            android:onClick="goToPol"
             android:src="@drawable/poland"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/imageButtonCro"
             android:layout_width="200sp"
             android:layout_height="150sp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="5dp"
             android:scaleType="center"
+            android:onClick="goToCro"
             android:src="@drawable/croatia"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonPol"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/imageButtonJap"
             android:layout_width="200sp"
             android:layout_height="150sp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="5dp"
             android:adjustViewBounds="true"
             android:scaleType="center"
+            android:onClick="goToJap"
             android:src="@drawable/japan"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonCro"
             tools:srcCompat="@tools:sample/avatars" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
