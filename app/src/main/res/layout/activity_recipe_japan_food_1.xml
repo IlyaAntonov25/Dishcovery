@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+300ml Sushi Rice, 100ml Rice wine, 2 tbs Caster Sugar, 3 tbs Mayonnaise, 1 tbs Rice wine, 1 tbs Soy Sauce, 1 Cucumber"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="STEP 1 TO MAKE SUSHI ROLLS: Pat out some rice.\n
+Lay a nori sheet on the mat, shiny-side down.\n
+Dip your hands in the vinegared water, then pat handfuls of rice on top in a 1cm thick layer, leaving the furthest edge from you clear.\n
+STEP 2 Spread over some Japanese mayonnaise.\n
+Use a spoon to spread out a thin layer of mayonnaise down the middle of the rice.\n
+STEP 3 Add the filling.\n
+Get your child to top the mayonnaise with a line of their favourite fillings – here we’ve used tuna and cucumber.\n
+STEP 4 Roll it up.\n
+Lift the edge of the mat over the rice, applying a little pressure to keep everything in a tight roll.\n
+STEP 5 Stick down the sides like a stamp.\n
+When you get to the edge without any rice, brush with a little water and continue to roll into a tight roll.\n
+STEP 6 Wrap in cling film.\n
+Remove the mat and roll tightly in cling film before a grown-up cuts the sushi into thick slices, then unravel the cling film.\n
+STEP 7 TO MAKE PRESSED SUSHI: Layer over some smoked salmon.\n
+Line a loaf tin with cling film, then place a thin layer of smoked salmon inside on top of the cling film.\n
+STEP 8 Cover with rice and press down.\n
+Press about 3cm of rice over the fish, fold the cling film over and press down as much as you can, using another tin if you have one.\n
+STEP 9 Tip it out like a sandcastle.\n
+Turn block of sushi onto a chopping board.\n
+Get a grown-up to cut into fingers, then remove the cling film.\n
+STEP 10 TO MAKE SUSHI BALLS: Choose your topping.\n
+Get a small square of cling film and place a topping, like half a prawn or a small piece of smoked salmon, on it.\n
+Use damp hands to roll walnut-sized balls of rice and place on the topping.\n
+STEP 11 Make into tight balls.\n
+Bring the corners of the cling film together and tighten into balls by twisting it up, then unwrap and serve."
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
