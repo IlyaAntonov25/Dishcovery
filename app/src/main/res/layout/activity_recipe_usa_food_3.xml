@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+1 large Banana, 2 medium Eggs, pinch Baking Powder, spinkling Vanilla Extract, 1 tsp Oil, 25g Pecan Nuts, 125g Raspberries"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="In a bowl, mash the banana with a fork until it resembles a thick purée.\n
+Stir in the eggs, baking powder and vanilla.\n
+Heat a large non-stick frying pan or pancake pan over a medium heat and brush with half the oil.\n
+Using half the batter, spoon two pancakes into the pan, cook for 1-2 mins each side, then tip onto a plate.\n
+Repeat the process with the remaining oil and batter.\n
+Top the pancakes with the pecans and raspberries.\n
+"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

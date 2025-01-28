@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+1 Chicken Breast, 1/4 cup Pickle Juice, 1 Egg, 1/4 cup Milk, 1/2 cup Flour, 1 tbs Icing Sugar, 1/2 tsp Paprika, 1/2 tsp Salt, 1/4 tsp Black Pepper, 1/4 tsp Garlic Powder, 1/4 tsp Celery Salt, 1/2 tsp Cayenne Pepper, 1 cup Olive Oil, 1 Sesame Seed, Burger Buns"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="Wrap the chicken loosely between plastic wrap and pound gently with the flat side of a meat tenderizer until about 1/2 inch thick all around.\n
+Cut into two pieces, as even as possible.\n
+Marinate in the pickle juice for 30 minutes to one hour (add a teaspoon of Tabasco sauce now for a spicy sandwich).\n
+Beat the egg with the milk in a bowl.\n
+Combine the flour, sugar, and spices in another bowl.\n
+Dip the chicken pieces each into the egg on both sides, then coat in flour on both sides.\n
+Heat the oil in a skillet (1/2 inch deep) to about 345-350.\n
+Fry each cutlet for 2 minutes on each side, or until golden and cooked through.\n
+Blot on paper and serve on toasted buns with pickle slices.\n"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

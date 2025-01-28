@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+1 whole Chicken, 2 quarts neutral frying Oil, 1 Egg White, 1 1/2 cups Flour, 1 tablespoon Brown Sugar, 1 tablespoon Salt, 1 tablespoon paprika, 2 teaspoons onion salt, 1 teaspoon chili powder, 1 teaspoon black pepper, 1/2 teaspoon celery salt, 1/2 teaspoon sage, 1/2 teaspoon garlic powder, 1/2 teaspoon allspice, 1/2 teaspoon oregano"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

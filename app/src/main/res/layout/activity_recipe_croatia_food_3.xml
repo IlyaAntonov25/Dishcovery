@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+500g Sardines, Dash Vegetable, Oil, To Glaze Flour, Dash Salt"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="Wash the fish under the cold tap.\n
+Roll in the flour and deep fry in oil until crispy.\n
+Lay on kitchen towel to get rid of the excess oil and serve hot or cold with a slice of lemon.\n
+"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

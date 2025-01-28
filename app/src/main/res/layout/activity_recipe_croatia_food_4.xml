@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+2 cans Cannellini Beans, 3 tbs Vegetable, Oil, 2 cups Tomatoes, 5 Challots, 2 cloves Garlic, Pinch Parsley, 1/2 kg chopped Chorizo"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="Heat the oil in a pan.\n
+Add the chopped vegetables and sauté until tender.\n
+Take a pot, empty the beans together with the vegetables into it, put the sausages inside and cook for further 20 minutes on a low heat.\n
+Or, put it in an oven and bake it at a temperature of 180ºC/350ºF for 30 minutes.\n
+This dish is even better reheated the next day.\n"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+500g Minced Beef, 250g Minced Pork, 1 Onion, 4 cloves Garlic, 3 tblsp chopped Parsley, 1 tbs Paprika, 3/4 teaspoon Baking Powder, 2 tbs Breadcrumbs, 3 tbs Water, 1 Vegetable Stock Cube, 1 tsp Salt, 1 tsp Pepper"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="Place the ground meat in a bowl.\n
+Chop the onion very finely and grate the garlic cloves.\n
+Add to the bowl.\n
+Add the chopped parsley, all sorts of paprika, baking soda, dried breadcrumbs, water, Vegeta, salt, and pepper.\n
+Mix well with the hand mixer fitted with the dough hooks.\n
+Cover the bowl with cling film/ plastic foil and leave to rest for 1 or 2 hours in the refrigerator.\n
+Take portions of the meat mixture, about 50-55 g/ 1.\n
+7-1.\n
+9 oz/ ¼ cup portions, and form the cevapi.\n
+The rolls should be about as thick as your thumb and about 7-10 cm/ 3-4 inches long.\n
+I had 18 sausages.\n
+The recipe can be easily doubled.\n
+Grill the cevapcici on the hot grill pan or on the barbecue for about 12-14 minutes, turning them several times in between, or until brown and cooked through.\n
+I checked by cutting one in the middle and then grilling the following batches for the same period of time.\n
+Serve hot as suggested above.\n
+The cevapcici can be reheated in the oven at 180 degrees Celsius/ 350 degrees Fahrenheit for about 10 minutes or until heated through.\n
+Check one, if it is not hot enough, give the sausages a few more minutes.\n
+"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
