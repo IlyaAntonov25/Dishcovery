@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+300g Sushi Rice, 1 tbs Mirin, Garnish Pickle Juice, Garnish Spring Onions"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="STEP 1 Rinsing and soaking your rice is key to achieving the perfect texture.\n
+Measure the rice into a bowl, cover with cold water, then use your fingers to massage the grains of rice – the water will become cloudy.\n
+Drain and rinse again with fresh water.\n
+Repeat five more times until the water stays clear.\n
+STEP 2 Tip the rinsed rice into a saucepan with 400ml water, or 200ml dashi and 200ml water, bring to the boil, then turn down the heat to a low simmer, cover with a tight-fitting lid with a steam hole and cook for 15 mins.\n
+Remove from the heat and leave to sit for another 15 mins, then stir through the mirin.\n
+Remove the lid and give it a good stir.\n
+Serve with any or all of the optional toppings.\n
+"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
