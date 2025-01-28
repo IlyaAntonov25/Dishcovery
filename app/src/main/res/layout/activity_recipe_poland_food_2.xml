@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+1 sliced Onion, 1/2 cup Olive Oil, 1 tsp Allspice, 1 tsp Pepper, 1 Bay Leaf"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="Soak herring in cold water for at least 1 hour.\n
+If very salty, repeat, changing the water each time.\n
+Drain thoroughly and slice herring into bite-size pieces.\n
+Place in a jar large enough to accommodate the pieces and cover with oil, allspice, peppercorns, and bay leaf.\n
+Close the jar.\n
+Refrigerate for 2 to 3 days before eating.\n
+This will keep refrigerated up to 2 weeks.\n
+Serve with finely chopped onion or onion slices, lemon, and parsley or dill."
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
