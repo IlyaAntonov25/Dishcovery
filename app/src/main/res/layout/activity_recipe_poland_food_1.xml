@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+1 Cabbage, 2 tbs Butter, 1 chopped Onion, 1 lb Ground Beef, 1/2 lb Ground Pork, 1 1/2 cups Rice, 1 tsp Garlic, 1 tsp Salt, 1/4 tsp Black Pepper, 3 cans Tomato Puree"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="Bring a large pot of lightly salted water to a boil.\n
+Place cabbage head into water, cover pot, and cook until cabbage leaves are slightly softened enough to remove from head, 3 minutes.\n
+Remove cabbage from pot and let cabbage sit until leaves are cool enough to handle, about 10 minutes.\n
+Remove 18 whole leaves from the cabbage head, cutting out any thick tough center ribs.\n
+Set whole leaves aside.\n
+Chop the remainder of the cabbage head and spread it in the bottom of a casserole dish.\n
+Melt butter in a large skillet over medium-high heat.\n
+Cook and stir onion in hot butter until tender, 5 to 10 minutes.\n
+Cool.\n
+Stir onion, beef, pork, rice, garlic, 1 teaspoon salt, and 1/4 teaspoon pepper together in a large bowl.\n
+Preheat oven to 350 degrees F (175 degrees C).\n
+Place about 1/2 cup beef mixture on a cabbage leaf.\n
+Roll cabbage around beef mixture, tucking in sides to create an envelope around the meat.\n
+Repeat with remaining leaves and meat mixture.\n
+Place cabbage rolls in a layer atop the chopped cabbage in the casserole dish; season rolls with salt and black pepper.\n
+Whisk tomato soup, tomato juice, and ketchup together in a bowl.\n
+Pour tomato soup mixture over cabbage rolls and cover dish wish aluminum foil.\n
+Bake in the preheated oven until cabbage is tender and meat is cooked through, about 1 hour."
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
