@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+400g Roasted Vegetables, 1 can Kidney Beans, 1 can Chopped Tomatoes, 1 Packet Mixed Grain"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="Heat oven to 200C/180C fan/ gas 6.\n
+Cook the vegetables in a casserole dish for 15 mins.\n
+Tip in the beans and tomatoes, season, and cook for another 10-15 mins until piping hot.\n
+Heat the pouch in the microwave on High for 1 min and serve with the chilli."
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
