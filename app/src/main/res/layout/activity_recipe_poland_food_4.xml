@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
-        android:text="Ingridients:"
+        android:text="Ingridients:\n
+2 sliced Bacon, 1 lb Kielbasa, 1 lb Pork, 1/4 cup Flour, 3 chopped Garlic, 1 Diced Onion, 1 1/2 cup Mushrooms, 4 cups Cabbage, 1 Jar Sauerkraut, 1/4 cup Red Wine, 1 Bay Leaf, 1 tsp Basil, 1 tsp Marjoram, 1 tbs Paprika, 1/8 teaspoon, Caraway Seed"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Recipe"
+        android:text="Preheat the oven to 350 degrees F (175 degrees C).\n
+Heat a large pot over medium heat.\n
+Add the bacon and kielbasa; cook and stir until the bacon has rendered its fat and sausage is lightly browned.\n
+Use a slotted spoon to remove the meat and transfer to a large casserole or Dutch oven.\n
+Coat the cubes of pork lightly with flour and fry them in the bacon drippings over medium-high heat until golden brown.\n
+Use a slotted spoon to transfer the pork to the casserole.\n
+Add the garlic, onion, carrots, fresh mushrooms, cabbage and sauerkraut.\n
+Reduce heat to medium; cook and stir until the carrots are soft, about 10 minutes.\n
+Do not let the vegetables brown.\n
+Deglaze the pan by pouring in the red wine and stirring to loosen all of the bits of food and flour that are stuck to the bottom.\n
+Season with the bay leaf, basil, marjoram, paprika, salt, pepper, caraway seeds and cayenne pepper; cook for 1 minute.\n
+Mix in the dried mushrooms, hot pepper sauce, Worcestershire sauce, beef stock, tomato paste and tomatoes.\n
+Heat through just until boiling.\n
+Pour the vegetables and all of the liquid into the casserole dish with the meat.\n
+Cover with a lid.\n
+Bake in the preheated oven for 2 1/2 to 3 hours, until meat is very tender."
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
